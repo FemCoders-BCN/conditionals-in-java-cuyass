@@ -10,6 +10,18 @@ public class TrafficLights {
 
         //Cambia el valor de la variable, corre el programa y mira el resultado 
 
+        String trafficLight = "blue";
+
+        if(trafficLight == "green") {
+            System.out.println("Puedes seguir");
+        } else if(trafficLight == "yellow") {
+            System.out.println("Ten cuidado");
+        } else if(trafficLight == "red") {
+            System.out.println("¡¡¡Para!!!");
+        } else {
+            System.out.println("El semáforo está dañado");
+        }
+
     }
     
 }
